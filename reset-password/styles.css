@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+.container{
+    width: 30%;
+    border: 2px solid blue;
+}
+
+h2 {
+    color: transparent;
+    font-weight: bolder;
+    -webkit-text-stroke-color: rgb(67, 67, 253);
+    -webkit-text-stroke-width: 2px;
+
+}
+
+#passwordResetForm{
+    border: 1px solid rgb(171, 171, 251);
+}
+.form-label {
+    font-weight: bold;
+    color: #68b3fe;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    width: 0%;
+    transition: width 0.5s ease;
+}
+
+#passwordMatchMessage {
+    font-size: 0.875rem;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.text-danger {
+    color: #dc3545;
+}
